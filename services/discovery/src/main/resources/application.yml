@@ -1,0 +1,14 @@
+spring:
+  application:
+    #very important to be the same as the name in the config server configuration file
+    name: discovery-service
+  config:
+    import: configserver:http://localhost:8888
+  cloud:
+    config:
+      fail-fast: true
+      retry:
+        max-attempts: 20
+        initial-interval: 2000
+        multiplier: 1.5
+        max-interval: 10000
