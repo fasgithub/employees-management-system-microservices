@@ -1,10 +1,10 @@
-package it.github.fasgithub.employees.discovery;
+package io.github.fasgithub.employees.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DiscoveryApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {

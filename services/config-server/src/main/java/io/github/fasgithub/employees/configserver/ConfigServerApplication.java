@@ -1,4 +1,4 @@
-package it.github.fasgithub.employees.configserver;
+package io.github.fasgithub.employees.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

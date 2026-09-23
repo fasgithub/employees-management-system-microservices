@@ -1,4 +1,4 @@
-package it.github.fasgithub.employees.discovery;
+package io.github.fasgithub.employees.discovery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
