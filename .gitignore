@@ -1,0 +1,32 @@
+# --- Maven / Java ---
+target/
+*.class
+*.jar
+*.war
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- Spring Initializr ---
+**/HELP.md
+
+# --- Environment variables ---
+.env
+.env.local
+
+# --- Log ---
+*.log
+logs/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Angular / Node ---
+node_modules/
+dist/
+.angular/
