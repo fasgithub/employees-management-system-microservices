@@ -1,5 +1,5 @@
 services:
-  postgres:
+  postgres_db:
     container_name: ms_pg_sql
     image: postgres:15
     restart: unless-stopped
@@ -10,6 +10,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
       - postgres:/var/lib/postgresql/data
     networks:
       - microservices-net
